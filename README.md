@@ -1,13 +1,15 @@
 <h1 align="center">CodeScribe 📝✨</h1>
 
 <p align="center">
-  <b>AI-Powered Code Documentation Generator</b><br/>
-  Generate clean, enterprise-grade documentation from your source code in seconds.
+  <b>AI-Powered Code Documentation Generator for Modern Developers</b><br/>
+  Instantly generate clear, professional, and enterprise-grade documentation from your source code — just like a senior engineer at Google, Amazon, or Microsoft would write.<br/>
+  Perfect for interviews, code reviews, technical portfolios, and scaling engineering productivity.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Build-Powered%20by%20OpenRouter-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Stack-FastAPI%20%7C%20React%20%7C%20Tailwind-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" />
 </p>
 
 ---

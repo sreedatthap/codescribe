@@ -8,7 +8,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Build-Powered%20by%20OpenRouter-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Stack-FastAPI%20%7C%20React%20%7C%20Tailwind-brightgreen?style=flat-square" />
-  <img src="https://img.shields.io/github/license/sreedatthap/codescribe?style=flat-square" />
 </p>
 
 ---

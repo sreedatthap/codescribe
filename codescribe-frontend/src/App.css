@@ -1,0 +1,73 @@
+/* App.css */
+/*! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  overflow-x: hidden;
+  background: radial-gradient(circle at top left, #0f0f0f, #1a1a1a);
+}
+
+textarea, pre {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937;
+}
+
+textarea::-webkit-scrollbar, pre::-webkit-scrollbar {
+  width: 6px;
+}
+
+textarea::-webkit-scrollbar-thumb, pre::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 10px;
+}
+
+/* Realistic shadows and 3D effects */
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.75);
+}
+
+/* Subtle motion blur */
+.backdrop-blur-md {
+  backdrop-filter: blur(12px);
+}
+
+/* Slight 3D hover bounce */
+.hover\\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+/* Neon glow */
+.neon-button {
+  background: linear-gradient(135deg, #7f00ff, #1f005c);
+  box-shadow: 0 0 15px #7f00ff, 0 0 30px #1f005c;
+  transition: all 0.3s ease-in-out;
+}
+.neon-button:hover {
+  box-shadow: 0 0 25px #a64bfd, 0 0 50px #400080;
+}
+
+/* Glassmorphism background */
+.glass-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.custom-cursor {
+  cursor: url('https://cdn-icons-png.flaticon.com/512/545/545705.png'), auto;
+}
+
+body {
+  cursor: url('https://cdn.jsdelivr.net/gh/saadeghi/files/dev-cursor.png'), auto;
+}
+
+* {
+  font-family: 'Google Sans', sans-serif;
+}

@@ -1,126 +1,160 @@
-# CodeScribe 📝✨
+<h1 align="center">CodeScribe 📝✨</h1>
 
-CodeScribe is an AI-powered documentation generator that helps developers create professional, FAANG+ style documentation for their codebases. Simply paste your code or upload a file, and let CodeScribe generate comprehensive documentation following enterprise-grade standards.
+<p align="center">
+  <b>AI-Powered Code Documentation Generator</b><br/>
+  Generate clean, enterprise-grade documentation from your source code in seconds.
+</p>
 
-## Features 🚀
+<p align="center">
+  <img src="https://img.shields.io/badge/Build-Powered%20by%20OpenRouter-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Stack-FastAPI%20%7C%20React%20%7C%20Tailwind-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/github/license/sreedatthap/codescribe?style=flat-square" />
+</p>
 
-- **Multi-language Support**: Works with Python, Java, JavaScript and C++.
-- **Smart Code Analysis**: AI-powered code understanding and documentation generation
-- **File Upload**: Drag & drop or browse to upload code files
-- **Export Options**: Copy to clipboard or export as text file
-- **Modern UI**: Clean, responsive interface with a beautiful animated background
-- **Enterprise-Grade Documentation**: Follows FAANG+ documentation standards
+---
 
-## Tech Stack 💻
+## ✨ What is CodeScribe?
+
+**CodeScribe** is an open-source AI tool that helps developers automatically generate professional, FAANG+ level documentation for their codebases. Just paste your code or upload a file, and let the AI do the rest.
+
+---
+
+## 🚀 Features
+
+- ✅ **Multi-language Support** – Supports Python, Java, JavaScript, and C++
+- 🤖 **AI-Powered Analysis** – Deep code understanding using OpenRouter API
+- 📁 **File Upload** – Drag & drop or browse to upload source code files
+- 📄 **Export Options** – Copy to clipboard or download as a `.txt` file
+- 🎨 **Modern UI** – Clean, responsive interface with animated backgrounds
+- 📘 **Enterprise-Grade Docs** – Aligned with top-tier engineering standards
+
+---
+
+## 🧠 Tech Stack
 
 ### Frontend
-- React 18
-- Vite (Build Tool)
-- Tailwind CSS (Styling)
-- Monaco Editor (VS Code's editor)
-- Framer Motion (Animations)
-- Three.js + Vanta.js (Background effects)
+- ⚛️ React 18 + Vite
+- 🎨 Tailwind CSS
+- ✍️ Monaco Editor (VS Code’s Editor)
+- 🎥 Framer Motion (UI animations)
+- 🌌 Three.js + Vanta.js (3D/animated background)
 
 ### Backend
-- FastAPI (Python web framework)
-- OpenRouter API (AI documentation generation)
-- HTTPX (Async HTTP client)
+- 🐍 FastAPI (Python)
+- 🔌 OpenRouter API (LLM-powered doc generation)
+- ⚡ HTTPX (Async HTTP client)
 
-## Getting Started 🏁
+---
+
+## 🛠️ Getting Started
 
 ### Prerequisites
-- Node.js (v16+)
-- Python 3.8+
+- [Node.js](https://nodejs.org/) (v16+)
+- [Python](https://www.python.org/) (3.8+)
 - npm or yarn
 
-### Installation
+### 📦 Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sreedatthap/codescribe.git
-   cd codescribe
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/sreedatthap/codescribe.git
+cd codescribe
+```
 
-2. **Set up the backend**
-   ```bash
-   cd codescribe-backend
-   python -m venv venv
-   source venv/bin/activate  # On Windows: .\venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+#### 🔧 Backend Setup
 
-3. **Configure environment variables**
-   Create a `.env` file in the `codescribe-backend` directory:
-   ```
-   OPENAI_API_KEY=your_openrouter_api_key_here
-   ```
+```bash
+cd codescribe-backend
+python -m venv venv
+source venv/bin/activate  # Windows: .\venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-4. **Set up the frontend**
-   ```bash
-   cd ../codescribe-frontend
-   npm install
-   ```
+Create a `.env` file inside `codescribe-backend`:
 
-### Running the Application
+```env
+OPENAI_API_KEY=your_openrouter_api_key_here
+```
 
-1. **Start the backend server**
-   ```bash
-   cd codescribe-backend
-   uvicorn main:app --reload
-   ```
+#### 🎨 Frontend Setup
 
-2. **Start the frontend development server**
-   ```bash
-   cd codescribe-frontend
-   npm run dev
-   ```
+```bash
+cd ../codescribe-frontend
+npm install
+```
 
-3. **Open your browser**
-   Visit `http://localhost:5173` to access CodeScribe
+---
 
-## Usage 📖
+## ▶️ Running the Application
 
-1. **Enter Code**: Paste your code into the editor or upload a file
-2. **Select Language**: Choose the programming language (auto-detected for files)
-3. **Generate Docs**: Click "Generate Documentation"
-4. **Review & Export**: View the generated documentation, copy it, or export as a text file
+```bash
+# Start the backend server
+cd codescribe-backend
+uvicorn main:app --reload
+```
 
-## Documentation Standards 📚
+```bash
+# Start the frontend development server
+cd ../codescribe-frontend
+npm run dev
+```
 
-CodeScribe generates documentation following FAANG+ standards, including:
+Now open your browser and visit: [http://localhost:5173](http://localhost:5173)
 
-- Title and description
-- Architecture overview
-- Dependencies
-- Component breakdown
-- Method/function documentation
-- Performance analysis
-- Security considerations
-- Best practices
-- Code examples
+---
 
-## Contributing 🤝
+## 📖 How to Use
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. **Enter Code**: Paste code into the Monaco editor or upload a file
+2. **Select Language**: Choose or auto-detect the programming language
+3. **Generate Docs**: Click the "Generate Documentation" button
+4. **Export**: Copy or download your documentation instantly
 
+---
+
+## 🧾 Documentation Standards
+
+CodeScribe follows **FAANG+ level** documentation standards:
+
+- ✅ Title and module description
+- 🏗️ Architecture & dependency overview
+- 🔍 Function & method-level documentation
+- 📊 Performance notes
+- 🔐 Security considerations
+- ✨ Best practices
+- 🧪 Sample code snippets
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community!
+
+```bash
+# Steps to contribute
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+2. Create your feature branch: git checkout -b feature/AmazingFeature
+3. Commit your changes: git commit -m 'Add some AmazingFeature'
+4. Push to the branch: git push origin feature/AmazingFeature
 5. Open a Pull Request
+```
 
-## License 📄
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📄 License
 
-## Acknowledgments 🙏
+Licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-- Built with ❤️ using amazing open-source technologies
-- Special thanks to the OpenRouter team for their AI API
-- Inspired by the need for better code documentation tools
+---
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ using powerful open-source technologies
+- Thanks to the OpenRouter team for their amazing LLM API
+- Inspired by the need for better, automated code documentation tools
 
 ---
 
 <div align="center">
-  Made with 💻 by Sree Dattha P | 2025
+  <sub>Made with 💻 by <a href="https://github.com/sreedatthap">Sree Dattha P</a> | 2025</sub>
 </div>
